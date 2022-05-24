@@ -22,7 +22,6 @@ ContactList.propTypes = {
             number: PropTypes.string.isRequired,
         })
     ),
-   
 }
 
 export default ContactList;
