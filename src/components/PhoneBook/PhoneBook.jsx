@@ -76,9 +76,8 @@ state = {
         }
     }
 
-    componentDidUpdate(prevState, prevProps) {
+    componentDidUpdate(prevState) {
         if (this.state.contacts !== prevState.contacts) {
-            console.log('putin xyi')
             localStorage.setItem('contacts', JSON.stringify(this.state.contacts))
             }
     }
